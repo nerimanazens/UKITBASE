@@ -3,12 +3,14 @@ let hamburgermenu=document.querySelector('.mobile-nav');
 
 hamburgericon.addEventListener('click', ()=>{
     hamburgermenu.classList.toggle('active');
+    document.body.classList.toggle('no-scroll');
 });
 
 let mobileNavCloseIcon = document.querySelector('.mobile-nav-close-icon');
 
 mobileNavCloseIcon.addEventListener('click', () => {
     hamburgermenu.classList.remove('active');
+    document.body.classList.remove('no-scroll');
 });
 
 //scroll down

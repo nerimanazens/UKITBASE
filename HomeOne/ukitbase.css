@@ -255,7 +255,9 @@ body.no-scroll {
     display: block;
     padding: 0.7rem 1rem;
 }
-
+body.no-scroll {
+    overflow: hidden;
+}
 @media (max-width:1000px) {
     .main-nav {
 
@@ -305,7 +307,6 @@ body.no-scroll {
     grid-template-columns: repeat(3,1fr);
     gap: 2rem;
     margin: 5rem 1rem;
-    
 }
 .article-card{
     background-color: white ;
@@ -359,4 +360,64 @@ body.no-scroll {
     .articles{
         grid-template-columns: repeat(1,1fr);
     }
+}
+
+/*Popolar Articles section*/
+
+
+.popular-articles{
+    margin: 10rem auto;
+    max-width: 950px;
+}
+.popular-articles h1{
+    color: #5e35b1;
+    
+    margin-bottom: 3rem;
+}
+.article-column{
+    display: flex;
+    padding: 20px 0;
+    border-bottom: 1px solid #e7e4e4;
+}
+.article-column-left{
+    width: fit-content;
+}
+.article-column-left h3{
+    color: #5e35b1;
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+    margin-top: 0;
+}
+.article-column-left p{
+    color: #7a7979;
+    font-size: 0.9rem;
+    font-weight: 400;
+    
+}
+.article-column-left-header-span{
+    font-weight: bolder;
+}
+.article-column-right{
+    width: 500px;
+    font-weight: 300;
+    font-size: 1rem;
+    color: #413c3c;
+    margin-left: auto;
+}
+.article-column:last-child{
+    border: none;
+}
+.latest-articles{
+    background-color: white;
+    padding: 10rem 0;
+}
+.latest-articles-container{
+    margin: 0 auto;
+    max-width: 950px;
+}
+.latest-articles h1{
+    color: #5e35b1;
+    
+    margin-bottom: 3rem;
 }
