@@ -19,3 +19,12 @@ let scrollDownBtn=document.querySelector('.scroll-down');
 scrollDownBtn.addEventListener('click',()=>{
     articles.scrollIntoView({behavior:"smooth" });
 });
+
+let arrowup = document.querySelector('.fa-arrow-up');
+
+arrowup.addEventListener('click', () => {
+    window.scrollTo({
+        top: 0,
+        behavior: "smooth"
+    });
+});
