@@ -475,6 +475,9 @@ body.no-scroll {
     transition: background-color 0.3s ease;
 }
 
+.fa-plus {
+    font-weight: lighter;
+}
 
 .accordion-item.active .accordion-header::after {
     background-color: #673AB7;
