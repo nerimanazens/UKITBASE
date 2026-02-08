@@ -28,3 +28,32 @@ arrowup.addEventListener('click', () => {
         behavior: "smooth"
     });
 });
+let item = document.querySelectorAll(".accordion-item");
+let hidden = document.querySelectorAll(".hidden");
+let plus = document.querySelectorAll(".fa-plus")
+
+item.forEach((element, index) => {
+    element.addEventListener('click', () => {
+
+        for (let i = 0; i < hidden.length; i++) {
+            if (hidden[i].classList.contains('active') && i != index) {
+                hidden[i].classList.remove('active');
+                item[i].classList.remove('active');
+                plus[i].classList.remove('fa-minus');
+                plus[i].classList.add('fa-plus');
+            }
+           
+        }
+        hidden[index].classList.toggle('active');
+        element.classList.toggle('active');
+
+        if (plus[index].classList.contains('fa-plus')) {
+            plus[index].classList.remove('fa-plus');
+            plus[index].classList.add('fa-minus');
+        }
+        else {
+            plus[index].classList.remove('fa-minus');
+            plus[index].classList.add('fa-plus');
+        }
+    });
+}); 
