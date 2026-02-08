@@ -37,7 +37,7 @@ UKITBASE/
 ### Prerequisites
 
 - A modern web browser (Chrome, Firefox, Safari, Edge)
-- Internet connection (for API calls and CDN resources)
+
 
 ### Installation
 
