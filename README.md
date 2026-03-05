@@ -7,7 +7,6 @@ A modern, responsive UI/UX project showcasing clean design principles and intera
 
 - **Multiple Page Layouts**: Four distinct home page designs (HomeOne, HomeTwo, HomeFour)
 - **Responsive Design**: Fully optimized for mobile, tablet, and desktop devices
-- **Interactive Weather Widget**: Real-time weather information with temperature unit conversion (Celsius/Fahrenheit)
 - **FAQ Section**: User-friendly accordion-style frequently asked questions
 - **Contact Form**: Streamlined contact page for user inquiries
 - **Smooth Animations**: Engaging transitions and interactive UI elements
